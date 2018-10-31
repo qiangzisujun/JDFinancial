@@ -1,23 +1,21 @@
-<template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+<template lang="html">
+  <div>
+    <Herdor/>
+    <Slider/>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'App'
-}
+  import Herdor from "./public/header.vue"
+  import Slider from "./home/hslider.vue"
+  export default {
+    components:{
+      Herdor,
+      Slider,
+    }
+  }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
+
 </style>
