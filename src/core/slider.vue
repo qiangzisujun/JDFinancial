@@ -48,5 +48,5 @@
 </script>
 
 <style lang="css">
-  @import "~swiper/dist/css/swiper.css";
+  @import "swiper/dist/css/swiper.css";
 </style>

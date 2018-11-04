@@ -4,12 +4,6 @@ import "../assets/css/reset.scss"
 
 Vue.use(Router)
 
-// export default new Router({
-//   routes: [
-//     {
-//       path: '/',
-//       name: 'Home',
-//       component: Home
-//     }
-//   ]
-// })
+export default new Router({
+
+})

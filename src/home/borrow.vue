@@ -2,7 +2,7 @@
   <Panel title="极速借贷" :class="$style.panel">
     <section :class="$style.content">
       <router-link :to="{name:'home',params:{}}">
-        <img src="//img12.360buyimg.com/jrpmobile/jfs/t25759/60/2272607322/48838/438e6aad/5bc6f6a5Ncd00b8cb.jpg?width=750&height=320" alt="">
+        <img src="//img12.360buyimg.com/jrpmobile/jfs/t12721/42/2497849749/26333/ec584be4/5a421756N2416c88f.png?width=750&height=280" alt="">
       </router-link>
     </section>
   </Panel>
